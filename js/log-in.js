@@ -18,7 +18,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
 
     //step-4 verify email and password
 
-    if (email === 'arif@gmail.com' && password === '1234a') {
+    if (email === 'arif@gmail.com' && password == '1234a') {
         window.location.href = 'bank.html';
     }
     else {
